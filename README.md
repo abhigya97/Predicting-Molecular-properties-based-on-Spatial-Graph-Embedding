@@ -3,10 +3,13 @@
 This project was done as part of the course Graph Analytics at IU Bloomington. 
 
 ## Abstract 
-Predicting the molecular properties of molecules is an essen- tial step during drug discovery. Traditionally, a lot of time-consuming biochemical experiments needed to be performed to obtain these proper- ties. Nowadays, computers are used to predict molecular properties. The speed for predicting molecular properties has increased, but the accuracy of prediction is still not satisfactory. Various machine learning and deep learning models have been introduced to address the issue of accuracy of prediction. This project is an attempt to recreate the deep learning graph convolution model proposed by Wang, Li, Jiang, Wang, Zhang, and Wei [1] to predict molecular properties using spatial graph embedding.
+Predicting the molecular properties of molecules is an essential step during drug discovery. Traditionally, a lot of time-consuming biochemical experiments needed to be performed to obtain these properties. Nowadays, computers are used to predict molecular properties. The speed for predicting molecular properties has increased, but the accuracy of prediction is still not satisfactory. Various machine learning and deep learning models have been introduced to address the issue of accuracy of prediction. This project is an attempt to recreate the deep learning graph convolution model proposed by Wang, Li, Jiang, Wang, Zhang, and Wei [1] to predict molecular properties using spatial graph embedding.
 
 ## Results and Conclusions
 
+<img width="460" alt="Screen Shot 2021-01-31 at 3 56 02 PM" src="https://user-images.githubusercontent.com/69980927/106397736-d906f980-63dc-11eb-9445-12d8fa3b08f6.png">
+
+<img width="434" alt="Screen Shot 2021-01-31 at 3 55 05 PM" src="https://user-images.githubusercontent.com/69980927/106397711-b5dc4a00-63dc-11eb-8905-7e04112dabb8.png">
 
 Table 1 shows the experimental results on the three data-sets for the model defined in this project. These results are being compared to the results obtained by using only the atomic features of the molecule and the predefined graph convolution model given by DeepChem [3]. Table 2 shows the results for the DeepChem model.
 
